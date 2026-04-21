@@ -1,0 +1,14 @@
+# 一時ファイル
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Whisperキャッシュ
+*.pt
+
+# VS Code
+.vscode/

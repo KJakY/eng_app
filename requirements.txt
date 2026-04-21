@@ -1,0 +1,6 @@
+ollama
+requests
+openai-whisper
+pyaudio
+edge-tts
+pygame
