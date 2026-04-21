@@ -2,16 +2,31 @@
 
 ## 必要なもの
 
-- Python 3.11以上
+- Python 3.x
 - [Ollama](https://ollama.com)
 - [ffmpeg](https://ffmpeg.org)
 
-## Ollamaのインストールとモデルのダウンロード
-https://ollama.com からインストール後
-ollama pull gemma3
+## セットアップ
 
-## インストール
+### 1. Ollamaのインストールとモデルのダウンロード
+
+[https://ollama.com](https://ollama.com) からインストール後、以下を実行してください。
+
+```bash
+ollama pull gemma3
+```
+
+### 2. ffmpegのインストール
+
+```bash
+winget install ffmpeg
+```
+
+### 3. パッケージのインストール
+
+```bash
 pip install -r requirements.txt
+```
 
 ## 起動
 python gui.py
