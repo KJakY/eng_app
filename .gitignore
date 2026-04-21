@@ -18,5 +18,5 @@ dist/
 build/
 *.spec
 
-# ffmpeg（サイズが大きいのでGitに上げない）
+# ffmpeg
 ffmpeg.exe
