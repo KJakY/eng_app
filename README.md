@@ -29,10 +29,10 @@ python gui.py
 
 `voice.py` の `VOICE` を変更するだけで切り替えられます。
 
-VOICE = "en-US-JennyNeural"   # アメリカ英語・女性
-VOICE = "en-US-GuyNeural"     # アメリカ英語・男性
-VOICE = "en-GB-SoniaNeural"   # イギリス英語・女性
-VOICE = "en-AU-NatashaNeural" # オーストラリア英語・女性
+- VOICE = "en-US-JennyNeural"   # アメリカ英語・女性
+- VOICE = "en-US-GuyNeural"     # アメリカ英語・男性
+- VOICE = "en-GB-SoniaNeural"   # イギリス英語・女性
+- VOICE = "en-AU-NatashaNeural" # オーストラリア英語・女性
 
 ## トピックの変更
 
