@@ -6,32 +6,15 @@
 - [Ollama](https://ollama.com)
 - [ffmpeg](https://ffmpeg.org)
 
-## セットアップ
-
-### 1. Ollamaのインストールとモデルのダウンロード
-
-\```bash
-# https://ollama.com からインストール後
+## Ollamaのインストールとモデルのダウンロード
+https://ollama.com からインストール後
 ollama pull gemma3
-\```
 
-### 2. ffmpegのインストール
-
-\```bash
-winget install ffmpeg
-\```
-
-### 3. パッケージのインストール
-
-\```bash
+## インストール
 pip install -r requirements.txt
-\```
 
-### 4. 起動
-
-\```bash
+## 起動
 python gui.py
-\```
 
 ## 使い方
 
@@ -46,12 +29,10 @@ python gui.py
 
 `voice.py` の `VOICE` を変更するだけで切り替えられます。
 
-\```python
 VOICE = "en-US-JennyNeural"   # アメリカ英語・女性
 VOICE = "en-US-GuyNeural"     # アメリカ英語・男性
 VOICE = "en-GB-SoniaNeural"   # イギリス英語・女性
 VOICE = "en-AU-NatashaNeural" # オーストラリア英語・女性
-\```
 
 ## トピックの変更
 
