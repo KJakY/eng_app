@@ -12,3 +12,11 @@ __pycache__/
 
 # VS Code
 .vscode/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# ffmpeg（サイズが大きいのでGitに上げない）
+ffmpeg.exe
